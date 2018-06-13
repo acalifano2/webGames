@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>2D Shooter</title>
+  </head>
+  <style>
+    #canvas1 {
+      border-style: solid;
+      border-radius: 15px;
+      width: 800px;
+      height: 530px;
+      background-color: white;
+      background-image: url("siteTexture.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    #bgColor { background-color: lightblue; }
+  </style>
+<body onload="main()" id="bgColor">
+    <canvas id="canvas1"> </canvas>
+    <script src="../lib/webgl-utils.js"></script>
+    <script src="../lib/webgl-debug.js"></script>
+    <script src="../lib/cuon-utils.js"></script>
+    <script src="./jsFiles/keyEvents.js"></script>
+    <script src="./jsFiles/main.js"></script>
+    <script src="./jsFiles/audio.js"></script>
+    <!--<script src="/jsFiles/drawSprite.js"></script>-->
+</body>
+</html>

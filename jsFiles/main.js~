@@ -1,0 +1,46 @@
+
+
+
+/*
+webSocket.onopen(){
+    console.log("NEW CONNECTION")
+    webSocket.send("GOT A CONNECTION")
+}
+
+webSocket.onclose(){
+    console.log("CLOSING CONNECTION")
+    webSocket.send("CLOSING CONNECTION")
+    webSocket.close()
+}
+
+webSocket.onmessage(event.data){
+    if(typeof event.data === "string" && event.data == "CONNECTION"){
+        alert("WE CONNECTED")
+    }
+}
+*/
+
+
+ function nameIt(kevent){
+    console.log(kevent.key)
+ }
+
+function main(){
+    //var canvas = document.getElementById('green')
+    //canvas.width = 1024
+    //canvas.height = 760
+    document.addEventListener('keydown',nameIt)
+    //var gl = WebGLUtils.create3DContext(canvas)
+    //WebGLDebugUtils.init(gl)
+  //  sprite = new drawSprite(gl,{})
+    //sprite.draw()
+    //webSocket = new WebSocket("ws://$ipaddr:$port/info");
+    //webSocket.binaryType = "arraybuffer"
+
+    //webSocket.onopen()
+    //webSocket.onmessage()
+
+
+    //tickHandler()
+    //webSocket.onclose()
+}
